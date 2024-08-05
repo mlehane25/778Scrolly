@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <!--custom stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="lib/scrollmap.css">
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+    </head>
+
+    <body>
+        <div class="content">
+             <!--title block, background image is title image-->
+            <div class="row title">
+                <div class="center title">
+                    <!--title text-->
+                    <h1><b>Mapping</b> Park <b>Equity</b></h1>
+                    <h2>Arlington County, Virginia</h2>
+                    <!--subtitle or author-->
+                    <p>By: Maggie Lehane</p>
+                </div>
+            </div>
+            <!--text content block-->
+            <div class="row">
+                <div class="center paragraph">
+                    <h2>What is Park Equity?</h2>
+                    <p>Not every community has access to parks, in fact according to the Trust for Public Land, roughly 1 in 3 Americans don't have a park within a 10-minute walk. Park access is crucial for the mental, physical, and environmental health of a community. Annually, the Trust for Public Land put's out their ParkScore Index report, which ranks the park systems of America's 100 most-populous cities. The goal of this report is to determine where parks are needed most in the nation's cities. In 2024, Arlington County, Virginia was ranked #5 by the ParkScore Index. Nearby Washington, D.C. ranked #1 best park system by the ParkScore Index in 2024.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="center paragraph">
+                    <p>According to multiple studies, oftentimes marginalized and low-income communities have less access to parkspace than white, affluent comunities.</p>
+                    <p>Arlington County, Virginia, like many American cities, implemented exclusionary housing policies decades ago that still affect housing, demographics, and development today. In 1932, Arlington was "formally" split in two via the street naming system, streets ending in "North" were north of Route 50 and those ending in "South," south of Route 50. However, the cultural and economic disparities between North and South Arlington began well before that system was put in place.</p>
+                </div>
+            </div>
+            <!--side by side text and image-->
+            <div class="row">
+                <div class="left">
+                    <img class="fit" src="assets/inspiration_board.png">
+                </div>
+                <div class="right">
+                    <p class="vert-center">This map makes use of brown and black along with many different styles of dotted lines, just like vintage sewing patterns. In this way, the land is the pattern piece, and the water is the surface it is laid out on.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <img class="fit" src="assets/Roads.png">
+                </div>
+                <div class="right">
+                    <p class="vert-center">The dotted lines are mostly used for roads to show varying type of road. For example, "larger" primary roads have wider and longer dotted lines, versus "smaller" secondary roads.</p>
+                </div>
+            </div>
+
+            <!--background images with text scrolling over them (sidecar)-->
+            <div class="scroll-container">    
+                <!--background images-->
+                <div class="background-item">
+                    <img src="assets/Paris1.png" data-slide="1" class="fill vert-center">
+                    <img src="assets/Milan2.png" data-slide="2" class="fill hidden">
+                    <img src="assets/London2.png" data-slide="3" class="fill hidden">
+                    <img src="assets/NewYork1.png" data-slide="4" class="fill hidden">
+                </div>
+                <!--foreground text blocks-->
+                <div class="foreground-item">
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">Let's go to the big four fashion capitals of the world -- Starting with Paris, France!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">Here's Milan, Italy. Here you can see how much natural land and small water bodies surround the city.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">Next, this is London, England. You can see the River Thames snake through the city with many ferry lanes.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">Lastly, here is New York City, United States! You can see how many roads, of varying importance, are in the city.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--iframe-->
+            <div class="row">
+                <div class="center">
+                    <p>Explore the whole basemap!</p>
+                </div>
+                <div class="center">
+                    <div id ="mapid"></div>
+                </div>
+            </div>
+
+            <!--credits-->
+            <div class="row no-margin">
+                <div class="center">
+                    <div class="credits">
+                        <p><b>Credits:</b></p>
+                        <p>Map created with Mapbox Studio</p>
+                        <p>Data: Arlington County, VA, U.S. Census Bureau, </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--external scripts-->
+        <script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+        <script type="text/javascript" src="lib/scrollmap copy.js"></script>
+    </body>
+</html>

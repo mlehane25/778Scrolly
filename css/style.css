@@ -1,0 +1,54 @@
+body{
+    font-family: 'Garamond', serif;
+    font-size: 1em;
+}
+
+iframe{
+    height:400px;
+}
+
+.textOne {
+    font-family: 'Garamond', serif;
+}
+
+body{
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+p{
+    font-size:20px;
+}
+
+h1{
+    font-family: 'Garamond', serif;
+    font-size:xx-small;
+    color: #201208;
+}
+
+#mapid{
+  width: 750px;
+  height:500px;
+}
+
+.image-container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.background-item{
+    object-fit:cover ;
+}
+
+.author{
+    font-family: 'Garamond', serif;
+    font-size:xx-small;
+    color: #201208;
+}
