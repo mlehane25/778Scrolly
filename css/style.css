@@ -53,7 +53,7 @@ h3{
 }
 
 #mapid{
-  width: 750px;
+  width: 625px;
   height:500px;
 }
 
@@ -61,6 +61,37 @@ h3{
     width: 500px;
     height: 300px;
     overflow: hidden;
+}
+
+
+.legend-control-container {
+    line-height: 18px;
+    padding-top: 5px;
+	background-color: rgba(243, 239, 229, 0.735);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	text-align: left;
+    font-family: 'Garamond', serif;
+    font-size: 12px;
+    color: #201208;
+	border: solid #201208 1px;
+}
+
+.legend-control-container i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    text-align: left;
+}
+
+p1{
+    font-family: 'Garamond', serif;
+    font-size:14px;
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 img {
@@ -78,4 +109,16 @@ img {
     font-family: 'Garamond', serif;
     font-size:xx-small;
     color: #201208;
+}
+
+.random{
+    width: 150px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+    font-family: 'Garamond', serif;
+    font-size: 8px;
+	border: solid gray 1px;
 }
